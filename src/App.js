@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Componentes
+import Footer from "./Estrutura/Footer";
+import Menu from "./Menu/Menu";
+import ListService from "./Services/ListService";
+//img
+import logo from "./img/LogoDDT2.png";
+//css
+import "./css/estrutura.css";
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    let op = [
+      { text: "Inicio", link: "/" },
+      { text: "Serviços", link: "Servicos" },
+    ];
+    return (
+      <div>
+        <div className="containerInit">
+          <BrowserRouter>
+            <Menu options={op} logo={logo} />
+            <Switch>
+              <Route path="/" exact={true} />
+              <Route path="/Servicos" component={ListService} />
+            </Switch>
+          </BrowserRouter>
+        </div>
+        <Footer logo={logo} texto="Diretoria de Desenvolvimento Tecnologico" />
+      </div>
+    );
+  }
 }
-
-export default App;

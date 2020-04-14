@@ -1,0 +1,49 @@
+.menu {
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  background-color: #00000094;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.menu > .configMenu {
+  position: relative;
+  height: 3rem;
+}
+
+.menu .navBar {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.menu-inline {
+  display: inline-block;
+}
+.logo-menu {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.menu .navBar .div-btn-menu {
+  padding-left: 5rem;
+  color: white;
+}
+.menu .navBar .MuiButtonBase-root {
+  margin-left: 0.3rem;
+}
+
+.menu .btn-menu {
+  border-color: #021373;
+  color: white;
+}
+
+.menu .btn-menu:hover {
+  color: white;
+}

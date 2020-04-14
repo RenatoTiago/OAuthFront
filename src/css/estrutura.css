@@ -1,0 +1,77 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #041524;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.ttl {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: serif;
+  text-align: center;
+}
+
+.containerInit {
+  background-color: #edf7ff;
+  padding: 2rem;
+  min-height: 70vh;
+  position: relative;
+}
+.card {
+  width: 230px;
+}
+.cardImg {
+  height: 130px;
+}
+.footer {
+  padding: 2rem;
+  height: 5rem;
+  background-color: rgb(1, 21, 38);
+  /* background-image: linear-gradient(rgba(1, 21, 38), rgba(0, 0, 0, 0.7)),
+    url(../img/slide.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid-footer {
+  height: 100%;
+}
+.footer-text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.text-footer {
+  color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.footer-logo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.logo-footer {
+  height: 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,43 @@
+.session {
+  height: 96vh;
+  padding: 1rem;
+  background-color: rgb(1, 21, 38);
+  background-image: linear-gradient(rgba(1, 21, 38), rgba(0, 0, 0, 0.7)),
+    url(../img/slide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.login {
+  max-width: 40vw;
+  min-height: 48vh;
+  background-color: #ffffff59;
+  margin: auto;
+  min-width: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: auto;
+  margin-top: auto;
+  vertical-align: middle;
+}
+
+.session img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.sessionService {
+  padding-top: 5rem;
+}
+
+.service {
+  display: inline-block;
+  margin: 10px;
+}
