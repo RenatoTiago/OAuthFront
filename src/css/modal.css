@@ -1,0 +1,32 @@
+.modal {
+  position: absolute;
+  width: 50vw;
+  background-color: #edf7ff;
+  border-radius: 15px;
+}
+
+.headModal {
+  padding: 1rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 0.5px solid #9e9e9e;
+}
+
+.bodyModal {
+  padding: 1rem;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.footerModal {
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 0.5px solid #9e9e9e;
+  text-align: right;
+}
+.footerModal button {
+  margin-left: 3px;
+  margin-right: 3px;
+}

@@ -4,7 +4,10 @@ import "../css/sessionOne.css";
 
 //img
 import mediaCard from "../img/slide.jpg";
+
+//component
 import Service from "./Service";
+
 
 export default class ListService extends Component {
   constructor(props) {
@@ -22,6 +25,7 @@ export default class ListService extends Component {
         {
           mediaCard: mediaCard,
           titulo: "OAuth",
+
         },
       ],
     };
